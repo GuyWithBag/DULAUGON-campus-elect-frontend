@@ -11,7 +11,7 @@ async function UsersList() {
 
   return (
     <div className="w-full flex items-center justify-center">
-      <div className="grid grid-cols-2 gap-2 max-w-[500]">
+      <div className="flex flex-ow flex-wrap w-full">
         {users.map((user) => {
           return (
             <User

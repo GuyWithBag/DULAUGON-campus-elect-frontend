@@ -10,7 +10,7 @@ function User({id, name, username, email, website}: UserType) {
   return (
     <div
       className={
-        "bg-gray-900 p-2 w-fit rounded-md outline-1 solid outline-pink-200 text-white m-5"
+        "bg-gray-200  p-2 w-fit rounded-md solid  m-5 text-neutral-500"
       }
     >
       <p>{id}</p>
