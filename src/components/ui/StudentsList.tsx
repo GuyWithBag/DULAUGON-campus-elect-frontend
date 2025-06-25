@@ -10,7 +10,7 @@ export type StudentType = {
 
 const StudentsList = async () => {
   const res = await fetch(
-    ``
+    `https://dulaugon-campus-elect-backend.onrender.com/users/students`
   );
 
   const students: StudentType[] = await res.json();
